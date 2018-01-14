@@ -1,0 +1,8 @@
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/puzzles/bin/Debug/netcoreapp1.1/puzzles.deps.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/puzzles/bin/Debug/netcoreapp1.1/puzzles.runtimeconfig.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/puzzles/bin/Debug/netcoreapp1.1/puzzles.runtimeconfig.dev.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/puzzles/bin/Debug/netcoreapp1.1/puzzles.dll
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/puzzles/bin/Debug/netcoreapp1.1/puzzles.pdb
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/puzzles/obj/Debug/netcoreapp1.1/puzzles.AssemblyInfo.cs
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/puzzles/obj/Debug/netcoreapp1.1/puzzles.dll
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/puzzles/obj/Debug/netcoreapp1.1/puzzles.pdb

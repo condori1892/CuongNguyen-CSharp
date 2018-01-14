@@ -1,0 +1,8 @@
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/basic13/bin/Debug/netcoreapp1.1/basic13.deps.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/basic13/bin/Debug/netcoreapp1.1/basic13.runtimeconfig.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/basic13/bin/Debug/netcoreapp1.1/basic13.runtimeconfig.dev.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/basic13/bin/Debug/netcoreapp1.1/basic13.dll
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/basic13/bin/Debug/netcoreapp1.1/basic13.pdb
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/basic13/obj/Debug/netcoreapp1.1/basic13.AssemblyInfo.cs
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/basic13/obj/Debug/netcoreapp1.1/basic13.dll
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/basic13/obj/Debug/netcoreapp1.1/basic13.pdb

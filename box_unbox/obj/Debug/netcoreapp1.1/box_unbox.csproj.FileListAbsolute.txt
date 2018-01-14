@@ -1,0 +1,8 @@
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/box_unbox/bin/Debug/netcoreapp1.1/box_unbox.deps.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/box_unbox/bin/Debug/netcoreapp1.1/box_unbox.runtimeconfig.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/box_unbox/bin/Debug/netcoreapp1.1/box_unbox.runtimeconfig.dev.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/box_unbox/obj/Debug/netcoreapp1.1/box_unbox.AssemblyInfo.cs
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/box_unbox/bin/Debug/netcoreapp1.1/box_unbox.dll
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/box_unbox/bin/Debug/netcoreapp1.1/box_unbox.pdb
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/box_unbox/obj/Debug/netcoreapp1.1/box_unbox.dll
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/box_unbox/obj/Debug/netcoreapp1.1/box_unbox.pdb
