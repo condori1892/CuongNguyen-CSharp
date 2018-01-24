@@ -1,0 +1,8 @@
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/DeckofCards/bin/Debug/netcoreapp1.1/DeckofCards.deps.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/DeckofCards/bin/Debug/netcoreapp1.1/DeckofCards.runtimeconfig.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/DeckofCards/bin/Debug/netcoreapp1.1/DeckofCards.runtimeconfig.dev.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/DeckofCards/bin/Debug/netcoreapp1.1/DeckofCards.dll
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/DeckofCards/bin/Debug/netcoreapp1.1/DeckofCards.pdb
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/DeckofCards/obj/Debug/netcoreapp1.1/DeckofCards.AssemblyInfo.cs
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/DeckofCards/obj/Debug/netcoreapp1.1/DeckofCards.dll
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/DeckofCards/obj/Debug/netcoreapp1.1/DeckofCards.pdb

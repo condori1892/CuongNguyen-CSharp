@@ -1,0 +1,8 @@
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/CallingCard/bin/Debug/netcoreapp1.1/CallingCard.deps.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/CallingCard/bin/Debug/netcoreapp1.1/CallingCard.runtimeconfig.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/CallingCard/bin/Debug/netcoreapp1.1/CallingCard.runtimeconfig.dev.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/CallingCard/obj/Debug/netcoreapp1.1/CallingCard.AssemblyInfo.cs
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/CallingCard/bin/Debug/netcoreapp1.1/CallingCard.dll
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/CallingCard/bin/Debug/netcoreapp1.1/CallingCard.pdb
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/CallingCard/obj/Debug/netcoreapp1.1/CallingCard.dll
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/CallingCard/obj/Debug/netcoreapp1.1/CallingCard.pdb

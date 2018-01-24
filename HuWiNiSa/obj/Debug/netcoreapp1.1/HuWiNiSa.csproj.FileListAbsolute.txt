@@ -1,0 +1,8 @@
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/HuWiNiSa/bin/Debug/netcoreapp1.1/HuWiNiSa.deps.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/HuWiNiSa/bin/Debug/netcoreapp1.1/HuWiNiSa.runtimeconfig.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/HuWiNiSa/bin/Debug/netcoreapp1.1/HuWiNiSa.runtimeconfig.dev.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/HuWiNiSa/bin/Debug/netcoreapp1.1/HuWiNiSa.dll
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/HuWiNiSa/bin/Debug/netcoreapp1.1/HuWiNiSa.pdb
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/HuWiNiSa/obj/Debug/netcoreapp1.1/HuWiNiSa.AssemblyInfo.cs
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/HuWiNiSa/obj/Debug/netcoreapp1.1/HuWiNiSa.dll
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/HuWiNiSa/obj/Debug/netcoreapp1.1/HuWiNiSa.pdb

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Index</title>
+        <!-- // In this context '~' refers to the wwwroot folder -->
+        <link rel="stylesheet" href="~/css/style.css"/>
+    </head>
+    <body>
+        <div class="wrapper">
+            <fieldset>
+                <legend>Survey</legend>
+                <form action="result" method = "POST">
+                    Your Name:
+                    <input type="text" name="name"><br>
+                    Dojo Location:
+                    <select name ="location">
+                        <option value="Chicago" >Chicago</option>
+                        <option value="NewYork" >NewYork</option>
+                        <option value="Dallas" >Dallas</option>
+                        <option value="Boston" >Boston</option>
+                        <option value="Denver" >Denver</option>
+                    </select><br>
+                    Favorite Language:
+                    <!-- <select name = "language">
+                        <option value="C" >C</option>
+                        <option value="C++" >C++</option>
+                        <option value="JavaScript" >JavaScript</option>
+                        <option value="Python" >Python</option>
+                        <option value="Html" >Html</option>
+                    </select><br> -->
+                    <select name ="language">
+                        <option value="c" >C</option>
+                        <option value="javaScript" >JavaScript</option>
+                        <option value="python" >Python</option>
+                        <option value="flask" >Flask</option>
+                        <option value="none" >None</option>
+                    </select><br>
+                    Comment (optional):
+                    <br>
+                    <textarea name="comment" rows="5" cols="40"></textarea><br>
+                    <input type="Submit" name="">
+                    
+
+                </form>
+            </fieldset>
+
+        </div>
+    </body>
+</html>

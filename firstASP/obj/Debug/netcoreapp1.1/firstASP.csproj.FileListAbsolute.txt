@@ -1,0 +1,8 @@
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/firstASP/bin/Debug/netcoreapp1.1/firstASP.deps.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/firstASP/bin/Debug/netcoreapp1.1/firstASP.runtimeconfig.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/firstASP/bin/Debug/netcoreapp1.1/firstASP.runtimeconfig.dev.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/firstASP/bin/Debug/netcoreapp1.1/firstASP.dll
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/firstASP/bin/Debug/netcoreapp1.1/firstASP.pdb
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/firstASP/obj/Debug/netcoreapp1.1/firstASP.AssemblyInfo.cs
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/firstASP/obj/Debug/netcoreapp1.1/firstASP.dll
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/firstASP/obj/Debug/netcoreapp1.1/firstASP.pdb

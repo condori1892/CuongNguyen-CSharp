@@ -1,0 +1,8 @@
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/simpleCRUD/bin/Debug/netcoreapp1.1/simpleCRUD.deps.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/simpleCRUD/bin/Debug/netcoreapp1.1/simpleCRUD.runtimeconfig.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/simpleCRUD/bin/Debug/netcoreapp1.1/simpleCRUD.runtimeconfig.dev.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/simpleCRUD/obj/Debug/netcoreapp1.1/simpleCRUD.AssemblyInfo.cs
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/simpleCRUD/bin/Debug/netcoreapp1.1/simpleCRUD.dll
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/simpleCRUD/bin/Debug/netcoreapp1.1/simpleCRUD.pdb
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/simpleCRUD/obj/Debug/netcoreapp1.1/simpleCRUD.dll
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/simpleCRUD/obj/Debug/netcoreapp1.1/simpleCRUD.pdb

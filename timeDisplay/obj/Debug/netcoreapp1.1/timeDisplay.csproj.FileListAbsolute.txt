@@ -1,0 +1,8 @@
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/timeDisplay/bin/Debug/netcoreapp1.1/timeDisplay.deps.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/timeDisplay/bin/Debug/netcoreapp1.1/timeDisplay.runtimeconfig.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/timeDisplay/bin/Debug/netcoreapp1.1/timeDisplay.runtimeconfig.dev.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/timeDisplay/bin/Debug/netcoreapp1.1/timeDisplay.dll
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/timeDisplay/bin/Debug/netcoreapp1.1/timeDisplay.pdb
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/timeDisplay/obj/Debug/netcoreapp1.1/timeDisplay.AssemblyInfo.cs
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/timeDisplay/obj/Debug/netcoreapp1.1/timeDisplay.dll
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/timeDisplay/obj/Debug/netcoreapp1.1/timeDisplay.pdb
