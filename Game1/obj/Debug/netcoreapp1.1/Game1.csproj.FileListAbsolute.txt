@@ -1,0 +1,8 @@
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/Game1/bin/Debug/netcoreapp1.1/Game1.deps.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/Game1/bin/Debug/netcoreapp1.1/Game1.runtimeconfig.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/Game1/bin/Debug/netcoreapp1.1/Game1.runtimeconfig.dev.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/Game1/bin/Debug/netcoreapp1.1/Game1.dll
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/Game1/bin/Debug/netcoreapp1.1/Game1.pdb
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/Game1/obj/Debug/netcoreapp1.1/Game1.AssemblyInfo.cs
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/Game1/obj/Debug/netcoreapp1.1/Game1.dll
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/Game1/obj/Debug/netcoreapp1.1/Game1.pdb

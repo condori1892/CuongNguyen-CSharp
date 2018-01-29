@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<!-- <h1>This is  index</h1>
+<h1>Energy :@ViewBag.Game.energy</h1>
+<h1>Meals :@ViewBag.Game.meals</h1>
+<h1>Happiness :@ViewBag.Game.happiness</h1>
+<h1>Fullness :@ViewBag.Game.fullness</h1>
+<h1>@ViewBag.Game.message</h1> -->
+<div class="center">
+    <ul style="list-style-type:none">
+        
+        <li class="inline">Energy :@ViewBag.Game.energy</li>
+        <li class="inline">Meals :@ViewBag.Game.meals</li>
+        <li class="inline">Happiness :@ViewBag.Game.happiness</li>
+        <li class="inline">Fullness :@ViewBag.Game.fullness</li>
+        
+    </ul>
+
+    <div class="infor">
+        <img src="@ViewBag.Game.action" alt="" class="src">
+        <p class="message">@ViewBag.Game.message</p>
+    </div>
+    @if(ViewBag.Game.message=="Congratulation! You Won!!" || ViewBag.Game.message=="Your Dojodachi just went to Second Vegas!!")
+        {
+            // <a href="/restart" class="restart"><button class="restart">Restart</button></a>
+            <div class="restart">
+                <form action="/restart" method="get">
+                    <input type="hidden" name="action" value="Restart">
+                    <input type="submit" value="Restart">
+                </form>
+            </div>
+
+        }
+        else
+        {
+
+            <div class="action">
+                <form action="/process" method="post">
+                    <input type="hidden" name="action" value="Feeding">
+                    <input type="submit" value="Feeding">
+                </form>
+            </div>
+            <div class="action">
+                <form action="/process" method="post">
+                    <input type="hidden" name="action" value="Playing">
+                    <input type="submit" value="Playing">
+                </form>
+            </div>
+            <div class="action">
+                <form action="/process" method="post">
+                    <input type="hidden" name="action" value="Working">
+                    <input type="submit" value="Working">
+                </form>
+            </div>
+            <div class="action">
+                <form action="/process" method="post">
+                    <input type="hidden" name="action" value="Sleeping">
+                    <input type="submit" value="Sleeping">
+                </form>
+            </div>
+        }
+</div>

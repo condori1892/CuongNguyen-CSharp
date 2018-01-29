@@ -1,0 +1,49 @@
+.action {
+    display: inline-block;
+    margin: 25px;
+    vertical-align: top;
+}
+.infor {
+    height: 350px;
+    width: 500px;
+    border: 1px solid black;
+    /* position: absolute; */
+}
+.restart {
+    /* display: block; */
+    /* margin: 0 auto; */
+    margin: 20px;
+    /* margin-right: 250px; */
+    /* margin: auto; */
+    /* vertical-align: top; */
+}
+
+.noStyle 
+{
+    list-style-type: none;
+}
+.inline {
+    display: inline-block;
+    margin-right: 20px;
+}
+.center {
+    width: 50%;
+    margin: auto;
+}
+.message {
+    text-align: center;
+}
+.infor img {
+    height: 250px;
+    width: 250px;
+    /* margin-right: 125px; */
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+    
+    /* margin: auto; */
+    
+}
