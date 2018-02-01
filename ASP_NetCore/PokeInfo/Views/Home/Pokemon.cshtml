@@ -1,0 +1,15 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Hello this is pokemon</h1>
+<p><strong>Name:</strong> @ViewBag.Pok["name"]</p>
+<p><strong>Height:</strong> @ViewBag.Pok["height"]</p>
+<p><strong>Weight:</strong> @ViewBag.Pok["weight"]</p>
+<p><strong>Primary Type:</strong></p>
+<ul>
+    @foreach(var type in @ViewBag.Pok["types"])
+    {
+        <li>@type["type"]["name"]</li>
+    }
+</ul>
