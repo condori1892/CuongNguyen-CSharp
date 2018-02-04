@@ -1,0 +1,8 @@
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/FormSubmission/bin/Debug/netcoreapp1.1/FormSubmission.deps.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/FormSubmission/bin/Debug/netcoreapp1.1/FormSubmission.runtimeconfig.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/FormSubmission/bin/Debug/netcoreapp1.1/FormSubmission.runtimeconfig.dev.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/FormSubmission/bin/Debug/netcoreapp1.1/FormSubmission.dll
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/FormSubmission/bin/Debug/netcoreapp1.1/FormSubmission.pdb
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/FormSubmission/obj/Debug/netcoreapp1.1/FormSubmission.AssemblyInfo.cs
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/FormSubmission/obj/Debug/netcoreapp1.1/FormSubmission.dll
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/FormSubmission/obj/Debug/netcoreapp1.1/FormSubmission.pdb
