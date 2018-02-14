@@ -1,0 +1,3 @@
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/QuotingDojo/obj/Debug/netcoreapp1.1/QuotingDojo.csproj.CoreCompileInputs.cache
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/QuotingDojo/obj/Debug/netcoreapp1.1/QuotingDojo.AssemblyInfoInputs.cache
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/QuotingDojo/obj/Debug/netcoreapp1.1/QuotingDojo.AssemblyInfo.cs
