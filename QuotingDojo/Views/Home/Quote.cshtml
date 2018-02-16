@@ -1,3 +1,14 @@
-@model Quote
+@{
+    ViewData["Title"] = "Home Page";
+}
 
-<h1>Heloo Quote</h1>
+<h1>All Quotes</h1>
+<br>
+
+@foreach(var q in ViewBag.quotes)
+{
+    <p>"@q["quoting"]"</p>
+    <p style="margin-left:4em">-<strong>@q["name"]</strong> at @q["created_at"].ToString("hh:mm tt MMM dd, yyyy")</p>
+    <hr>
+}
+            

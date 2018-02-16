@@ -1,0 +1,10 @@
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/form_Regis/bin/Debug/netcoreapp1.1/form_Regis.deps.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/form_Regis/bin/Debug/netcoreapp1.1/form_Regis.runtimeconfig.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/form_Regis/bin/Debug/netcoreapp1.1/form_Regis.runtimeconfig.dev.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/form_Regis/bin/Debug/netcoreapp1.1/form_Regis.dll
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/form_Regis/bin/Debug/netcoreapp1.1/form_Regis.pdb
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/form_Regis/obj/Debug/netcoreapp1.1/form_Regis.AssemblyInfo.cs
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/form_Regis/obj/Debug/netcoreapp1.1/form_Regis.dll
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/form_Regis/obj/Debug/netcoreapp1.1/form_Regis.pdb
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/form_Regis/obj/Debug/netcoreapp1.1/form_Regis.csproj.CoreCompileInputs.cache
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/form_Regis/obj/Debug/netcoreapp1.1/form_Regis.AssemblyInfoInputs.cache

@@ -21,39 +21,24 @@ namespace QuotingDojo.Controllers
         [HttpGet("quotes")]
         public IActionResult Quote()
         {
+            string query = "SELECT * FROM quotes ORDER BY created_at DESC";
+            ViewBag.quotes = DbConnector.Query(query);
             return View();
         }
 
         [HttpPost("quotes")]
-        public IActionResult Create(Quote quote)
+        public IActionResult Create(Quote Q)
         {
-            // if(quote.name.Length == 0)
-            //     TempData["nameError"] = "Name field is required";
-            
-            // if(quote.name.Length < 2)
-            //     TempData["nameError"] = "Name must be at least 2 chars";
-
-            // if(quote.quote.Length == 0)
-            //     TempData["quoteError"] = "Quote field is required";
-            
-            // if(quote.quote.Length < 15)
-            //     TempData["quoteError"] = "Quote must be at least 15 chars";
-    
             if(ModelState.IsValid)
             {
-                return RedirectToAction("Quote");
-
-            }
-            // if(ModelState.IsValid && newquote.Length > 15)
-            // {
-            //     return RedirectToAction("Quote");
-
-            // }
-            // TryValidateModel(quote);
-            // TempData["error"] = "Quote must be at least 15 chars";
-            // return View();
+                string query = $@"INSERT INTO quotes (name, quoting, created_at, updated_at) 
+                VALUES ('{Q.name}', '{Q.quote}', NOW(), NOW())";
+                DbConnector.Execute(query);
+                // ViewBag.success = "Successful! Adding Quote";
+                return RedirectToAction("Index");
+            }  
             return View("Index");
-            // return RedirectToAction("Index");
+           
         }
 
     }

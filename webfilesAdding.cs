@@ -121,3 +121,39 @@ namespace YourNamespace
 }
 
 using Microsoft.AspNetCore.Http;
+
+
+dotnet add package Microsoft.AspNet.Identity.Core --version 2.2.1
+
+
+6
+down vote
+If you need to do the same thing but are using the new .csproj for configuration rather than the project.json, edit your .csproj file and add the following right below the propertygroup:
+
+<PropertyGroup>
+    <PackageTargetFallback>net451;dotnet5.6;portable-net45+win8</PackageTargetFallback>
+</PropertyGroup>
+Taken from here.
+
+dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore --version 1.1.3   
+dotnet add package System.Data.SqlClient --version 4.4.2 
+
+
+
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
+    <PackageReference Include="MySql.Data" Version="7.0.7-*" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
+  </ItemGroup>
+
+</Project>

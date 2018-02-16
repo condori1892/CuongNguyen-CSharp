@@ -36,6 +36,12 @@
                 <input asp-for="password" class="form-control">
             </div>
 
+            <div class="form-group">
+                <span asp-validation-for="passwordConfirmation"></span>
+                <label asp-for="passwordConfirmation"></label>
+                <input asp-for="passwordConfirmation" class="form-control">
+            </div>
+
             
             <input type="submit" value="Submit">
               

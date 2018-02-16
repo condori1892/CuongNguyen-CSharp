@@ -31,6 +31,10 @@ namespace FormSubmission.Models
         [DataType(DataType.Password)]
         public string password { get; set; }
 
+        [Display(Name = "Password Confirmation")]
+        [Required]
+        [Compare("password", ErrorMessage = "Password and confirmation must match.")]
+        public string passwordConfirmation { get; set; }
 
         
     }

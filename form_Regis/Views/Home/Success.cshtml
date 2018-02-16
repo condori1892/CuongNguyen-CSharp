@@ -1,0 +1,26 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>Successful Login</h1>
+<h1>All Users</h1>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Created At</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var u in ViewBag.users)
+        {
+            <tr>
+                <td>@u["first_name"]</td>
+                <td>@u["last_name"]</td>
+                <td>@u["email"]</td>
+                <td>@u["created_at"]</td>
+            </tr>
+        }
+    </tbody>
+</table>

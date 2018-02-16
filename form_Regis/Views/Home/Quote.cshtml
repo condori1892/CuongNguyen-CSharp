@@ -1,0 +1,50 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model Quote
+<h1>Welcome to QuotingDojo</h1>
+
+<form asp-action="Create" asp-controller="Home" method="post">
+    <div class="form-group">
+        <span asp-validation-for="@Model.name"></span>
+        <label asp-for="@Model.name"></label>
+        <input asp-for="@Model.name" class="form-control">
+    </div>
+    
+    @Html.EditorFor(m => m.quote, additionalViewData: new { htmlAttributes = new { @class = "form-control" }})
+
+    <!-- <div class="form-group">
+        <span asp-validation-for="quote"></span>
+        <label asp-for="quote"></label>
+        <textarea asp-for="quote" class="form-control"  rows="3"></textarea>
+    </div> -->
+    
+        <!-- <label for="exampleFormControlInput1">Your Name:</label> -->
+        <input type="submit" class="btn btn-info" value="Add My Quote">
+        <a href="/quotes" class="btn btn-info" role="button">Skip Quoting</a>
+    
+</form>
+<!-- <form asp-action="Create" asp-controller="Home" method="post" class="loginRegis">
+    <fieldset>
+        <legend>Register <strong>@ViewBag.message</strong></legend>
+        
+            <div class="form-group">
+                <span asp-validation-for="name"></span>
+                <label asp-for="name"></label>
+                <input asp-for="name" class="form-control">
+            </div>  
+
+            <div class="form-group">
+                <span asp-validation-for="quote"></span>
+                <label asp-for="quote"></label>
+                <input asp-for="quote" class="form-control">
+            </div>
+
+            
+            <input type="submit" onclick="myFunction()" value="Register">
+              
+        
+        
+    
+    </fieldset>
+</form> -->
