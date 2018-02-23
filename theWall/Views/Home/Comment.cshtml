@@ -1,0 +1,12 @@
+@model Comment
+
+<form asp-action="CreateComment" asp-controller="Home" method="post" style="margin-left: 40px">
+    <div class="form-group">
+        <span asp-validation-for="comment"></span>
+        <textarea asp-for="comment" class="form-control" rows="2" ≈></textarea>
+    </div>
+        <input type="hidden" name="messages_id" id="messages_id" value="3333" />
+
+        <input type="submit" class="btn btn-info" value="Add a Comment">
+    
+</form>

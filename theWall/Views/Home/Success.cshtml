@@ -1,0 +1,8 @@
+@model AllClasses
+<h1>Success...got to success</h1>
+
+@foreach(var user in Model.allMessages)
+{
+    <p>@user["first_name"] @user["last_name"] -- @user["created_at"]</p>
+    <p style="margin-left: 40px">@user["message"]</p>
+}

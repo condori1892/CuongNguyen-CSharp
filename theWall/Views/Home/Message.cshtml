@@ -1,0 +1,9 @@
+@model Message
+<h5>Post a message</h5>
+<form asp-action="CreateMessage" asp-controller="Home" method="post">
+    <div class="form-group">
+        <span asp-validation-for="message"></span>
+        <textarea asp-for="message" class="form-control" rows="3"></textarea>
+    </div>
+        <input type="submit" class="btn btn-info" value="Post a Message">
+</form>
