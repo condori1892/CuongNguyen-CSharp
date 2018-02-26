@@ -1,0 +1,5 @@
+@model Message
+<form asp-action="DeleteMessage" asp-controller="Dashboard" method="post">
+    <input type="hidden" name="id" id="id" value='@message["message_id"]' />
+    <input type="submit" class="btn btn-info" value="Delete">
+</form>

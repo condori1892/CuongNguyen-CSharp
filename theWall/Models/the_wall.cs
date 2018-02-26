@@ -59,6 +59,8 @@ namespace theWall.Models
         public string comment { get; set;}
         public int users_id {get;set;}
 
+        public int id {get; set;}
+
         public int messages_id {get;set;}
     }
 
@@ -72,6 +74,7 @@ namespace theWall.Models
         [DataType(DataType.MultilineText)]
         public string message { get; set;}
         public int users_id {get;set;}
+        public int id {get; set;}
 
     }
 }

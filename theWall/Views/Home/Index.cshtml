@@ -1,11 +1,11 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-@model AllClasses
+@model LogRegModel
 
 <form asp-action="Create" asp-controller="Home" method="post" class="loginRegis">
     <fieldset>
-        <legend>Register <strong>@ViewBag.message</strong></legend>
+        <legend>Register</legend>
         
             <div class="form-group">
                 <span asp-validation-for="newUser.first_name"></span>
@@ -47,7 +47,7 @@
 
 <form asp-action="Login" asp-controller="Home" method="post" class="loginRegis">
     <fieldset>
-        <legend>Login @ViewBag.login</legend>
+        <legend><strong>@TempData["success"]</strong></legend>
 
         <div class="form-group">
                 <span asp-validation-for="loginUser.log_email"></span>
@@ -64,9 +64,6 @@
            
 
             <input type="submit" value="Login">
-              
-        
-        
     
     </fieldset>
 </form>

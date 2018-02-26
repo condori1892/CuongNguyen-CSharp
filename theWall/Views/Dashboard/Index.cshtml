@@ -1,0 +1,72 @@
+@model DashboardModel
+<nav class="navbar navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <h3>CodingDojo Wall</h3>
+    </div>
+    
+    <ul class="nav navbar-nav navbar-right">
+      <li>Welcome <strong>@ViewBag.userName</strong></li>
+      <li><a href="logoff">Log off</a></li>
+    </ul>
+  </div>
+  <hr>
+</nav>
+
+@Html.Partial("Message", @Model.newMessage)
+
+
+@foreach(var message in Model.allMessages)
+{
+    <br>
+    <p><strong>@message["first_name"] @message["last_name"]</strong> -- @message["created_at"] @message["message_id"]</p>
+    <p style="margin-left: 40px">@message["message"]</p>
+    @if((int)message["users_id"] == (int)ViewBag.userID)
+    {
+        <form asp-action="DeleteMessage" asp-controller="Dashboard" method="post">
+            <input type="hidden" name="id" id="id" value='@message["message_id"]' />
+            <input type="hidden" name="users_id" id="users_id" value='@message["users_id"]' />
+            <input type="submit" class="btn btn-info" value="Delete Message">
+        </form>
+    }
+    <br>
+    // @Html.Partial("Comment", @Model.newComment)
+    <div style="margin-left: 70px">
+        @foreach (var comment in Model.allComments)
+        {
+            // <p>@comment["first_name"] @comment["last_name"] -- @comment["created_at"]  @comment["messages_id"]</p>
+            // <p>@comment["comment"]</p>
+            if((int)message["message_id"] == (int)comment["messages_id"])
+            {
+                <p><strong>@comment["first_name"] @comment["last_name"]</strong> -- @comment["created_at"]</p>
+                <p>@comment["comment"]</p>
+
+                if((int)comment["users_id"] == (int)ViewBag.userID)
+                {
+                    <form asp-action="DeleteComment" asp-controller="Dashboard" method="post">
+                    <input type="hidden" name="id" id="id" value='@comment["id"]' />
+                    <input type="submit" class="btn btn-info" value="Delete Comment">
+                    </form>
+                }
+                
+            }
+            
+        
+        }
+
+        <form asp-action="CreateComment" asp-controller="Dashboard" method="post">
+        <div class="form-group">
+            <h4>Post a Comment</h4>
+            <span asp-validation-for="@Model.newComment.comment"></span>
+            <textarea type="text" name="comment" id="comment" class="form-control" rows="2"></textarea>
+        </div>
+            <input type="hidden" name="messages_id" id="messages_id" value='@message["message_id"]' />
+
+            <input type="submit" class="btn btn-info" value="Add a Comment">
+        
+        </form>
+    </div>
+    
+}
+
+

@@ -13147,8 +13147,6 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.5",
-      "Microsoft.AspNetCore.Identity >= 2.0.1",
-      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 2.0.1",
       "Microsoft.NETCore.App >= 2.0.0",
       "MySql.Data >= 7.0.7-*",
       "System.Data.SqlClient >= 4.4.2"
@@ -13196,14 +13194,6 @@
           "Microsoft.AspNetCore.All": {
             "target": "Package",
             "version": "[2.0.5, )"
-          },
-          "Microsoft.AspNetCore.Identity": {
-            "target": "Package",
-            "version": "[2.0.1, )"
-          },
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "[2.0.1, )"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",
