@@ -1,0 +1,10 @@
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/RestReview/obj/Debug/netcoreapp2.0/RestReview.csproj.CoreCompileInputs.cache
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/RestReview/obj/Debug/netcoreapp2.0/RestReview.AssemblyInfoInputs.cache
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/RestReview/obj/Debug/netcoreapp2.0/RestReview.AssemblyInfo.cs
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/RestReview/bin/Debug/netcoreapp2.0/RestReview.deps.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/RestReview/bin/Debug/netcoreapp2.0/RestReview.runtimeconfig.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/RestReview/bin/Debug/netcoreapp2.0/RestReview.runtimeconfig.dev.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/RestReview/bin/Debug/netcoreapp2.0/RestReview.dll
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/RestReview/bin/Debug/netcoreapp2.0/RestReview.pdb
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/RestReview/obj/Debug/netcoreapp2.0/RestReview.dll
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/RestReview/obj/Debug/netcoreapp2.0/RestReview.pdb

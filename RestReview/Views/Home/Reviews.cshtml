@@ -1,0 +1,11 @@
+<h4><a href="/">Home</a></h4><br>
+@foreach(var review in ViewBag.reviews)
+{
+    <h5><strong>Review for</strong>: @review.rest_name  -- @review.rating star</h5>
+    <p><strong>Reviewer name</strong>: @review.reviewer_name -- @review.visited_date.ToString("d")</p>
+    <div style="margin-left:30px;">
+         <p>@review.content</p>
+    </div>
+    <hr>
+    
+}
