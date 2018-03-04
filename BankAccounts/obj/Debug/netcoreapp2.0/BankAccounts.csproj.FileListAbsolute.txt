@@ -1,0 +1,10 @@
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/BankAccounts/obj/Debug/netcoreapp2.0/BankAccounts.csproj.CoreCompileInputs.cache
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/BankAccounts/obj/Debug/netcoreapp2.0/BankAccounts.AssemblyInfoInputs.cache
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/BankAccounts/obj/Debug/netcoreapp2.0/BankAccounts.AssemblyInfo.cs
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/BankAccounts/bin/Debug/netcoreapp2.0/BankAccounts.deps.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/BankAccounts/bin/Debug/netcoreapp2.0/BankAccounts.runtimeconfig.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/BankAccounts/bin/Debug/netcoreapp2.0/BankAccounts.runtimeconfig.dev.json
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/BankAccounts/bin/Debug/netcoreapp2.0/BankAccounts.dll
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/BankAccounts/bin/Debug/netcoreapp2.0/BankAccounts.pdb
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/BankAccounts/obj/Debug/netcoreapp2.0/BankAccounts.dll
+/Users/cuongnguyen/Desktop/CodingDojo/C_net/BankAccounts/obj/Debug/netcoreapp2.0/BankAccounts.pdb

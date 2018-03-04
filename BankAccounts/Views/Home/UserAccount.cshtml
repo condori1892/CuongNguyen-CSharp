@@ -1,0 +1,44 @@
+@model List<Account>
+
+<h5><a href="/logout">Logout</a></h5><br>
+
+<h3>Welcome @ViewBag.username</h3><br>
+
+<h4>@TempData["error"]</h4>
+
+<div class="container">
+    <h5>Current Balance: $ @ViewBag.balance</h5><br>
+
+    <form class="form-inline" asp-action="Action" asp-controller="Home" method="post">
+        <div class="form-group">
+            <!-- <span asp-validation-for="activity"></span> -->
+            <label>Deposit/Withdraw: </label>
+            <input type="number" name="number" class="form-control">
+            <!-- <input asp-for="activity" class="form-control"> -->
+        </div>
+        
+        <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+</div><br>
+
+
+<div class="container">
+            
+  <table class="table table-striped table-bordered">
+    <thead>
+      <tr>
+        <th>Amount</th>
+        <th>Date</th>
+      </tr>
+    </thead>
+    <tbody>
+        @foreach(var trans in Model)
+        {
+            <tr>
+                <td>$ @trans.activity.ToString("0.00")</td>
+                <td>@trans.activity_date.ToString("MMMM dd yyyy")</td> 
+            </tr>
+        }
+    </tbody>
+  </table>
+</div>
