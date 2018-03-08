@@ -1,0 +1,69 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model LogRegModel
+
+<form asp-action="Create" asp-controller="Home" method="post" class="loginRegis">
+    <fieldset>
+        <legend><strong>Register</strong></legend>
+        
+            <div class="form-group">
+                <span asp-validation-for="regUser.first_name"></span>
+                <label asp-for="regUser.first_name"></label>
+                <input asp-for="regUser.first_name" class="form-control">
+            </div>  
+
+            <div class="form-group">
+                <span asp-validation-for="regUser.last_name"></span>
+                <label asp-for="regUser.last_name"></label>
+                <input asp-for="regUser.last_name" class="form-control">
+            </div>
+
+
+            <div class="form-group">
+                <span asp-validation-for="regUser.email"></span>
+                <!-- @Html.ValidationMessage("regUser.email") -->
+                <label asp-for="regUser.email"> @ViewBag.email </label>
+                <input asp-for="regUser.email" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <span asp-validation-for="regUser.password"></span>
+                <label asp-for="regUser.password"></label>
+                <input asp-for="regUser.password" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <span asp-validation-for="regUser.pw_confirm"></span>
+                <label asp-for="regUser.pw_confirm"></label>
+                <input asp-for="regUser.pw_confirm" class="form-control">
+            </div>
+
+            
+            <input type="submit" onclick="myFunction()" value="Register">
+              
+    </fieldset>
+</form>
+
+<form asp-action="Login" asp-controller="Home" method="post" class="loginRegis">
+    <fieldset>
+        <legend><strong>Login</strong>@TempData["success"]</legend>
+
+        <div class="form-group">
+                <span asp-validation-for="logUser.logEmail"></span>
+                <label asp-for="logUser.logEmail"></label>
+                <input asp-for="logUser.logEmail" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <span asp-validation-for="logUser.logPassword"></span>
+                <label asp-for="logUser.logPassword"></label>
+                <input asp-for="logUser.logPassword" class="form-control">
+            </div>
+        
+           
+
+            <input type="submit" value="Login">
+    
+    </fieldset>
+</form>

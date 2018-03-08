@@ -1,0 +1,44 @@
+@model WeddingPlanner.Models.NewUser
+
+
+<form asp-action="Create" asp-controller="Home" method="post" class="loginRegis">
+    <fieldset>
+        <legend>Register</legend>
+        
+            <div class="form-group">
+                <span asp-validation-for="first_name"></span>
+                <label asp-for="first_name"></label>
+                <input asp-for="first_name" class="form-control">
+            </div>  
+
+            <div class="form-group">
+                <span asp-validation-for="last_name"></span>
+                <label asp-for="last_name"></label>
+                <input asp-for="last_name" class="form-control">
+            </div>
+
+
+            <div class="form-group">
+                <span asp-validation-for="email"></span>
+                <!-- @Html.ValidationMessage("email") -->
+                <label asp-for="email"></label>
+                <input asp-for="email" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <span asp-validation-for="password"></span>
+                <label asp-for="password"></label>
+                <input asp-for="password" class="form-control">
+            </div>
+            <div class="form-group">
+                <span asp-validation-for="pw_confirm"></span>
+                <label asp-for="pw_confirm"></label>
+                <input asp-for="pw_confirm" class="form-control">
+            </div>
+   
+            <input type="submit" value="Register">
+              
+    </fieldset>
+</form>
+<br>
+<h5><a href="/login">Already Registered??</a></h5>

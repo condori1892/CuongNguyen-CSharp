@@ -1,0 +1,52 @@
+@model List<Wedding>
+<h5><a href="/logout">Logout</a></h5><br>
+<h1>Welcome to Wedding Planner!!</h1>
+<div class="container">
+            
+  <table class="table table-striped table-bordered">
+    <thead>
+      <tr>
+        <th>Wedding</th>
+        <th>Date</th>
+        <th>Guests</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+        @foreach(Wedding wed in Model)
+        {
+          var guests = wed.rsvpGuests.ToList();
+          var numGuest = (guests.Count > 0)
+            ? guests.Count.ToString()
+            : "0";
+          <tr>
+              <td><a href="/dashboard/@wed.wedding_id">@wed.wedder_one and @wed.wedder_two</a></td>
+              <td>@wed.wed_date.ToString("MMMM dd yyyy")</td> 
+              <td>@numGuest</td> 
+            @if(wed.creator == ViewBag.id)
+            {
+              <td><a href="/dashboard/delete/@wed.wedding_id">Delete</a></td>
+            } 
+            else
+            {
+              var check = wed.rsvpGuests.SingleOrDefault(e => e.user_id == ViewBag.id);
+              var rsvp = (check == null)
+                ? "RSVP"
+                : "UN-RSVP";
+              <td><a href="/dashboard/rsvp/@wed.wedding_id">@rsvp</a></td>
+              
+            }
+          </tr>
+        }
+        
+    </tbody>
+  </table>
+</div>
+
+
+
+
+
+<a href="/dashboard/newwedding" class="btn btn-default">New Wedding</a>
+
+

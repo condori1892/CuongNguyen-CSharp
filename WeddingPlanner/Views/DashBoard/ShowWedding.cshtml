@@ -1,0 +1,29 @@
+@model WeddingPlanner.Models.Wedding
+<h5><a href="/dashboard">Dashboard</a>  |  <a href="/logout">Logout</a></h5>
+
+
+
+<h2>@Model.wedder_one and @Model.wedder_two 's Wedding </h2>
+<h3>@Model.wed_date.ToString("MMMM dd, yyyy")</h3>
+
+<fieldset>
+    <legend><strong>Guests:</strong></legend>
+    @if(Model.rsvpGuests != null)
+    {
+        
+        @foreach (var guest in Model.rsvpGuests)
+        {
+            <p>@guest.rsvpGuest.first_name @guest.rsvpGuest.last_name</p>
+            
+        }
+        
+    }
+    else
+    {
+       <p>No Guest</p> 
+    }
+    
+</fieldset>
+
+
+
